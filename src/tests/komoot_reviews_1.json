@@ -1,0 +1,31 @@
+{
+    "method": "spellchecker",
+    "dataset": {
+        "uploaded_at": "2024-06-30T22:26:27.262+02:00",
+        "name": "komoot_reviews_1",
+        "size": 3,
+        "documents": [
+            {
+                "number": 0,
+                "text": "Verry useful app for planning tripps.",
+                "id": "MS, 2024 "
+            },
+            {
+                "number": 1,
+                "text": "Starting a tour, the track disappears from the map. Only if you have the tour in mind you can complete it. In that case I do not need the app. In addition the app stops tracking for whatever reason, I do not know why. The behaviour was never observed in former versions. This started in 2023 and stays already quite a while.",
+                "id": "BR, 2023"
+            },
+            {
+                "number": 2,
+                "text": "I have been using the app for more than 5 years. It has never let me down or taken me to a dead end. It's very reliable and has only gotten better with the growing community of hikers and cyclists (at least in Germany). My friends, to whom I'd recommended the app, were very impressed with it and have no problems taking their children with them on tours. Quick tip: if you're using S8 (or similar) turn off Edge Lighting in display settings while using Wake-up Display during navigation. Cheers.",
+                "id": "ZH, 2020"
+            }
+        ],
+        "ground_truth": []
+    },
+    "params": {
+        "new_dataset_name": "testNew",
+        "original_dataset_name": "testOriginal",
+        "run_name": ""
+    }
+}
