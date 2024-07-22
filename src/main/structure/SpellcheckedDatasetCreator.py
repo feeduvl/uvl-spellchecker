@@ -20,7 +20,7 @@ class SpellcheckedDatasetCreator():
         """
             Description:
                 This method performs a spellcheck on an original dataset and generates a new,
-                spelling corrected dataset.
+                spellchecked dataset.
             Args:
                 None: Uses the dataset class variable
             Returns:

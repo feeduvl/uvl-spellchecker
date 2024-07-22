@@ -26,11 +26,11 @@ class ForeignComponentSpellcheckerRestConnectoRequester():
     def storeDatasetRequest(self, dataset: Dataset) -> int:
         """
             Description:
-                This method sends a post request to the uvl-storage service to store a dataset.
+                This method sends a POST request to the uvl-storage-concepts service to store a dataset.
             Args:
                 Dataset: The dataset, which has to be stored
             Returns:
-                int: The status of the post request
+                int: The status of the POST request
         """
 
         logger.info(f"-------Store new generated Dataset with the Name: {dataset['name']}-------")
@@ -38,6 +38,6 @@ class ForeignComponentSpellcheckerRestConnectoRequester():
         try:
             response = requests.post(DATASET_POST_ENDPOINT, json=dataset)
         except ConnectionError as e:
-            print(f"ConnectionError: Failed to connect to the uvl-storage service: {e}")
+            print(f"ConnectionError: Failed to connect to the uvl-storage-concepts service: {e}")
 
         return response.status_code
